@@ -1,0 +1,3 @@
+after proxying the connection of jenkins
+the link ll be tcp://"docker inspect the container and get the ip add":port
+the port should be the same as the one in the command (2375)
