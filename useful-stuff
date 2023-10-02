@@ -1,3 +1,8 @@
 after proxying the connection of jenkins
 the link ll be tcp://"docker inspect the container and get the ip add":port
 the port should be the same as the one in the command (2375)
+
+
+if we run python script on jenkins default agent it won't run
+so i created an image and pushed it to my docker hub 
+and i used it as a jenkins agent
