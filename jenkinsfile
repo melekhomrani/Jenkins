@@ -1,8 +1,9 @@
 pipeline {
-    agent { 
-        node {
+    agent {
+        docker {
+            image 'melekwevioo/jenkins-agent-python'
             label 'docker-jenkins-agent-python'
-            }
+        }
     }
     triggers {
         pollSCM '* * * * *'
