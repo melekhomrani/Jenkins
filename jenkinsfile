@@ -1,8 +1,8 @@
 pipeline {
     agent {
         docker {
-            image 'docker-jenkins-agent-python:1.0.1'
-            label 'custom-label'
+            image 'melekwevioo/jenkins-agent-python:1.0.1'
+            label 'docker-jenkins-agent-python'
         }
     }
     triggers {
