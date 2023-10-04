@@ -1,6 +1,9 @@
 pipeline {
     agent {
-        label 'docker-jenkins-agent-python'
+        docker {
+            image 'docker-jenkins-agent-python:1.0.1'
+            label 'custom-label'
+        }
     }
     triggers {
         pollSCM '* * * * *'
