@@ -1,7 +1,5 @@
 pipeline {
     agent {
-        docker {
-            image 'melekwevioo/jenkins-agent-python:1.0.1'
             label 'docker-jenkins-agent-python'
         }
     }
